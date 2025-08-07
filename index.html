@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Apresentação - Kauã Vinicios</title>
+    <!-- Inclui o Tailwind CSS via CDN para um design moderno e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo para a fonte 'Inter' */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-blue-600 flex items-center justify-center min-h-screen p-4">
+
+    <!-- Card centralizado com as informações -->
+    <div class="bg-white text-center p-8 md:p-12 rounded-3xl shadow-2xl max-w-sm w-full transition-all duration-300 ease-in-out">
+        
+        <!-- Foto de perfil (pode ser substituída por uma URL real) -->
+        <!-- Usando um placeholder como exemplo -->
+        <img 
+            src="https://placehold.co/150x150/60a5fa/ffffff?text=KV" 
+            alt="Foto de perfil de Kauã Vinicios" 
+            class="rounded-full mx-auto mb-6 border-4 border-blue-200 hover:border-blue-400 transition-all duration-300"
+            onerror="this.src='https://placehold.co/150x150/60a5fa/ffffff?text=KV';">
+
+        <!-- Nome -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Kauã Vinicios</h1>
+        <p class="text-lg text-gray-600 mb-6">Desenvolvedor Front-End</p>
+
+        <!-- Link para o Instagram -->
+        <a 
+            href="https://www.instagram.com/kaua.nobre_" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center bg-pink-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-pink-600 transform hover:scale-105 transition-all duration-300 ease-in-out">
+            <!-- Ícone do Instagram (SVG inline) -->
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M10 0a10 10 0 1010 10A10 10 0 0010 0zm0 18a8 8 0 118-8 8 8 0 01-8 8z"/>
+                <path d="M10 5a5 5 0 105 5 5 5 0 00-5-5zm0 8a3 3 0 113-3 3 3 0 01-3 3z"/>
+                <circle cx="13.5" cy="6.5" r="1.5"/>
+            </svg>
+            @kaua.nobre_
+        </a>
+    </div>
+
+</body>
+</html>
